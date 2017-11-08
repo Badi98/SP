@@ -1,0 +1,5 @@
+%Semnal dreptunghiular cu rezolutie temporara 20ms
+
+t = 0:0.02:2;    % rezolutia temporara este acum de 20ms
+x = square(t, 25);
+plot(t,x,'.-');
